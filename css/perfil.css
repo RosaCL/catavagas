@@ -11,15 +11,20 @@ header{
     text-align: center;
     color: black;
 }
-#login{
+
+#registro{
     padding: 15px;    
     background-image: linear-gradient(to bottom, #67CCFF, transparent,#FFFFFF );
     text-align: center;
     
     
 }
-#mail, #senha{
+#mail, #senha, #nome, #sobrenome, #local{
     border-radius: 5px;
+    margin: 5px;
+}
+#estudante{
+    text-align: center;
 }
 .social{
     width: 30px;
@@ -28,7 +33,14 @@ header{
 #sm{
     border-radius: 100px;
 } 
-#envia{
+#estudante{
+    margin: 5px;
+    text-align: center ;
+}
+#termos{
+    text-align: justify;
+}
+#entra{
     border-radius: 20px;
     margin: 5px;
     padding: 5px;

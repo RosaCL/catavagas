@@ -5,6 +5,8 @@
 body,html{
     width: 100vw;
     height: 100vh;
+    background-image: linear-gradient(to bottom, #67CCFF, transparent,#FFFFFF );
+    text-align: center;
 }
 header{
     background: #67CCFF;
@@ -12,14 +14,14 @@ header{
     color: black;
 }
 #login{
-    padding: 15px;    
-    background-image: linear-gradient(to bottom, #67CCFF, transparent,#FFFFFF );
-    text-align: center;
+    padding: 15px;        
     
     
 }
 #mail, #senha{
     border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
 }
 .social{
     width: 30px;

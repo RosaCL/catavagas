@@ -11,9 +11,29 @@ header{
     text-align: center;
     color: black;
 }
-
-
-
+#login{
+    padding: 15px;    
+    background-image: linear-gradient(to bottom, #67CCFF, transparent,#FFFFFF );
+    text-align: center;
+    
+    
+}
+#mail, #senha{
+    border-radius: 5px;
+}
+.social{
+    width: 30px;
+    border-radius: 100px;
+}
+#sm{
+    border-radius: 100px;
+} 
+#envia{
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    background-image: linear-gradient(to top, #67CCFF, transparent,#FFFFFF );
+}
 footer{    
     background: #67CCFF; 
     text-align: center;   
@@ -22,3 +42,4 @@ footer{
     text-decoration: none;
     color: white;
 }
+

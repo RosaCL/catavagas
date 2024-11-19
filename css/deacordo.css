@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #67CCFF, transparent,#FFFFFF );
+    
+}
+header{
+    background: #67CCFF;
+    text-align: center;
+    color: black;
+}
+#deacordo{
+    background: #E5E5E5;
+}
+ 
+#pref{
+   border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    
+}
+#curriculo{
+    background: white;
+
+}
+#sn{
+    background: #67CCFF;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 5px;
+}
+#feedback{
+    background: white;
+}
+#vaga{
+    background: white;
+}
+#mostra{
+    text-align: center;
+}
+#grupo{
+    background-image: linear-gradient(to bottom, #67CCFF, transparent,#FFFFFF );
+    text-align: center;
+}
+footer{    
+    background: #67CCFF; 
+    text-align: center;   
+}
+#costureza{    
+    text-decoration: none;
+    color: white;
+}

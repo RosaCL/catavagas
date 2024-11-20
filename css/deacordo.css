@@ -8,20 +8,22 @@
 body,html{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #67CCFF, transparent,#FFFFFF );
+    background-image: linear-gradient(to bottom, #67CCFF,#FFFFFF );
     
 }
 header{
     background: #67CCFF;
     text-align: center;
     color: black;
+
 }
+
 #deacordo{
     background: #E5E5E5;
 }
- 
+
 #pref{
-   border-radius: 5px;
+    border-radius: 5px;
     margin: 5px;
     padding: 5px;
     
@@ -46,8 +48,11 @@ header{
     text-align: center;
 }
 #grupo{
-    background-image: linear-gradient(to bottom, #67CCFF, transparent,#FFFFFF );
-    text-align: center;
+    background-image: linear-gradient(to right, #67CCFF, #FFFFFF );
+    text-align: center;    
+}
+.hibri{
+    border-bottom: 2px solid #000;
 }
 footer{    
     background: #67CCFF; 

@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #67CCFF,#FFFFFF );
+    
+}
+header{
+    background: #67CCFF;
+    text-align: center;
+    color: black;
+}
+
+#evento{
+    background: #E5E5E5;    
+}
+p{
+    text-align: justify;
+}
+
+#saiba{
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    background: #67CCFF;    
+    }
+
+
+#grupo{
+    background-image: linear-gradient(to right, #67CCFF, #FFFFFF );
+    text-align: center;    
+}
+
+footer{    
+    background: #67CCFF; 
+    text-align: center;     
+    
+}
+#costureza{    
+    text-decoration: none;
+    color: white;
+}

@@ -17,13 +17,7 @@ header{
 
 }
 
-.vagadescrita{
-    background: white;
-    border-bottom: 1px solid #000;
-    margin: 5px;
-    padding: 5px;
-    
-}
+
 #qualifica{
     background: white;
     border-bottom: 1px solid #000;
@@ -38,27 +32,35 @@ header{
     padding: 5px;
     
 }
-#mostrar{
-    text-align: center;
-    border-bottom: 1px solid #000;
-    background: #E5E5E5;
-    
-     
-}
+
 #empresa{
     background: white;
     border-bottom: 1px solid #000;
     margin: 5px;
     padding: 5px;
+    border-radius: 20px;
    
 }
-#vagavc{
+#redes{
     background: white;
-    /* width: 466px; */
-}
-.hibri{
     border-bottom: 2px solid #000;
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+    border-radius: 20px;
+
 }
+#vagas{
+    background: #67CCFF;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    padding: 5px;    
+    border-radius: 20px;
+}
+.cata{
+    height: 100px;
+}
+
 #btn{
     margin: 5px;
    padding: 5px;
@@ -81,7 +83,7 @@ footer{
     color: white;
 }
 @media (max-width: 728px) {
-    #vaga{
+    #perfilempresa{
         width: 95vw;
     }
 }

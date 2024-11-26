@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #67CCFF,#FFFFFF );
+    
+}
+header{
+    background: #67CCFF;
+    text-align: center;
+    color: black;
+
+}
+
+.vagadescrita{
+    background: white;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    padding: 5px;
+    width: 466px;    
+}
+#qualifica{
+    background: white;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    padding: 5px;
+    width: 466px; 
+}
+#sobrevaga{
+    background: white;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    padding: 5px;
+    width: 466px; 
+}
+#mostrar{
+    text-align: center;
+    border-bottom: 1px solid #000;
+    background: #E5E5E5;
+    width: 466px;
+     
+}
+#empresa{
+    background: white;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    padding: 5px;
+    width: 466px; 
+}
+#vagavc{
+    background: white;
+    width: 466px;
+}
+.hibri{
+    border-bottom: 2px solid #000;
+}
+#btn{
+    margin: 5px;
+   padding: 5px;
+   border-radius: 20px;
+    background-image: linear-gradient(to bottom, #67CCFF,#FFFFFF );
+    color: #000;
+}
+#grupo{
+    background-image: linear-gradient(to right, #67CCFF, #FFFFFF );
+    text-align: center;   
+    
+}
+
+footer{    
+    background: #67CCFF; 
+    text-align: center;   
+}
+#costureza{    
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 728px) {
+    #vaga{
+        width: 95vw;
+    }
+}

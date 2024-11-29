@@ -100,6 +100,7 @@ input{
     padding: 10px;
 }
 #grupo{
+    width: 100vw;
     background-image: linear-gradient(to right, #67CCFF, #FFFFFF );
     text-align: center;    
 }

@@ -18,7 +18,8 @@ header{
     margin: 50px;
     padding: 50px;
     background: white;
-    border: 5px solid #67CCFF; 
+    border: 1px solid #67CCFF; 
+    box-shadow: 5px 5px 5px #67CCFF;
     border-radius: 20px;  
     }
 #cadastre{

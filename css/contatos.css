@@ -2,13 +2,11 @@
     margin: 0px;
     padding: 0px;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal; 
 }
 body,html{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #67CCFF,#FFFFFF );
+    background: #E5E5E5;
     
 }
 header{
@@ -19,18 +17,20 @@ header{
 }
 
 #deacordo{
-    background: #E5E5E5;
+    background: white;
 }
 
 #pref{
-    border-radius: 5px;
+    border-radius: 20px;
     margin: 5px;
     padding: 5px;
+    background: #67CCFF;
+    align-items: center;
     
 }
 #curriculo{
-    background: white;
-
+    background: #E5E5E5;
+    width: auto;
 }
 #sn{
     background: #67CCFF;
@@ -61,4 +61,9 @@ footer{
 #costureza{    
     text-decoration: none;
     color: white;
+}
+@media (max-width: 728px) {
+    #contatos{
+        width: 95vw;
+    }
 }

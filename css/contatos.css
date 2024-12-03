@@ -30,8 +30,32 @@ header{
 }
 #curriculo{
     background: #E5E5E5;
-    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.circle{
+    width: 40px; 
+    height: 40px;   
+    color: #FFFFFF;
+    border-radius: 50%;
+    background: #2C2C2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-number{
+    width: 20px;
+    font-size: small;
+    color: #FFFFFF;
+    border-radius: 50%;
+    background: #0077FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #sn{
     background: #67CCFF;
     border-radius: 50px;
@@ -49,8 +73,7 @@ header{
 }
 #grupo{
     background-image: linear-gradient(to right, #67CCFF, #FFFFFF );
-    text-align: center;   
-      
+    text-align: center;
 }
 .hibri{
     border-bottom: 2px solid #000;
@@ -70,5 +93,8 @@ footer{
 @media (max-width: 728px) {
     #contatos{
         width: 95vw;
+    }
+    #curriculo{
+        width: 100%;
     }
 }

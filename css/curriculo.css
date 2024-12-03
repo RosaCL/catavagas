@@ -26,7 +26,8 @@ header{
 #curriculo{
     padding: 10px;    
     margin: 10px;
-    border: 3px solid black; 
+    border: 1px solid black; 
+    box-shadow: 5px 5px 5px black;
     border-radius: 20px;
     background: white;
     text-align: center;
@@ -44,7 +45,8 @@ header{
     height: 310px;
     padding: 10px;    
     margin: 10px;
-    border: 3px solid black; 
+    border: 1px solid black; 
+    box-shadow: 5px 5px 5px black;   
     border-radius: 20px;
     background: white;
     display: flex;
@@ -57,7 +59,8 @@ header{
 #redes{
     padding: 10px;    
     margin: 10px;
-    border: 3px solid black; 
+    border: 1px solid black; 
+    box-shadow: 5px 5px 5px black; 
     border-radius: 20px;
     background: white;
     text-align: center; 
@@ -65,7 +68,8 @@ header{
 #sobre{
     padding: 10px;    
     margin: 10px;
-    border: 3px solid black; 
+    border: 1px solid black; 
+    box-shadow: 5px 5px 5px black; 
     border-radius: 20px;
     background: white;
     text-align: center; 
@@ -79,6 +83,7 @@ header{
     padding: 10px;
 }
 #grupo{
+    width: 100vw;
     background-image: linear-gradient(to right, #67CCFF, #FFFFFF );
     text-align: center;    
 }

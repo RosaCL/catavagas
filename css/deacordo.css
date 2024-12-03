@@ -48,6 +48,7 @@ header{
     text-align: center;
 }
 #grupo{
+    width: 100vw;
     background-image: linear-gradient(to right, #67CCFF, #FFFFFF );
     text-align: center;    
 }

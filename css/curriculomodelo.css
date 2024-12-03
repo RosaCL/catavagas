@@ -24,12 +24,14 @@ header{
     align-items: center;
 }
 #nome{
-    width: 400px;
+    width: 445px;
     padding: 10px;    
     margin: 10px;
-    border: 2px solid black; 
+    border: 1px solid black; 
+    box-shadow: 5px 5px 5px black;
     border-radius: 20px;
     background: white;
+    align-items: center;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -47,7 +49,8 @@ header{
 #info{    
     padding: 10px;    
     margin: 10px;
-    border: 2px solid black; 
+    border: 1px solid black; 
+    box-shadow: 5px 5px 5px black;
     border-radius: 20px;
     background-image: linear-gradient(to bottom, #67CCFF, transparent,#FFFFFF );
     display: flex;
@@ -64,6 +67,7 @@ input{
     padding: 10px;    
     margin: 10px;
     border: 1px solid black; 
+    box-shadow: 5px 5px 5px black;
     border-radius: 20px;
     background: white;
     color: black;
@@ -72,7 +76,8 @@ input{
     
     padding: 10px;    
     margin: 10px;
-    border: 2px solid black; 
+    border: 1px solid black; 
+    box-shadow: 5px 5px 5px black; 
     border-radius: 20px;
     background-image: linear-gradient(to bottom, #67CCFF, transparent,#FFFFFF );
     color: black;
@@ -85,7 +90,8 @@ input{
 #sobre{
     padding: 10px;    
     margin: 10px;
-    border: 3px solid black; 
+    border: 1px solid black; 
+    box-shadow: 5px 5px 5px black;
     border-radius: 20px;
     background: white;
     text-align: center; 
@@ -100,6 +106,7 @@ input{
     padding: 10px;
 }
 #grupo{
+    width: 100vw;
     background-image: linear-gradient(to right, #67CCFF, #FFFFFF );
     text-align: center;    
 }

@@ -49,18 +49,23 @@ header{
 }
 #grupo{
     background-image: linear-gradient(to right, #67CCFF, #FFFFFF );
-    text-align: center;    
+    text-align: center;   
+      
 }
 .hibri{
     border-bottom: 2px solid #000;
 }
 footer{    
     background: #67CCFF; 
-    text-align: center;   
+    text-align: center; 
+    bottom: 0;
+    position: fixed;
+    width: 100%;  
 }
 #costureza{    
     text-decoration: none;
     color: white;
+    
 }
 @media (max-width: 728px) {
     #contatos{

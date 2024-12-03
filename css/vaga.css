@@ -43,6 +43,7 @@ header{
     border-bottom: 1px solid #000;
     background: #E5E5E5;
     
+    
      
 }
 #empresa{
@@ -75,7 +76,8 @@ header{
 
 footer{    
     background: #67CCFF; 
-    text-align: center;   
+    text-align: center; 
+     
 }
 #costureza{    
     text-decoration: none;

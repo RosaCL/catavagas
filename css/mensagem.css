@@ -54,25 +54,14 @@ main {
     justify-content: center;
     align-items: center;
 }
-.coluna{
-    display: grid;
-    grid-template-columns: 50px 800px;
-    margin:5px;
-    padding: 2px;    
-}
 
-#sn{
-    background: #67CCFF;
-    border-radius: 50px;
-    margin: 5px;
-    padding: 5px;
-}
 .msg{
     background: #E5E5E5;
+    
 }
 .balao{
     height: 200px;
-    width: 200px;
+    width: 156px;
     border-radius: 20px;
     margin: 15px;
     padding: 5px;

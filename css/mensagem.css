@@ -16,6 +16,10 @@ header{
 
 }
 
+main {
+    height: auto;
+}
+
 #deacordo{
     background: white;
 }
@@ -52,7 +56,7 @@ header{
 }
 .coluna{
     display: grid;
-    grid-template-columns: 45px 350px 45px;
+    grid-template-columns: 50px 800px;
     margin:5px;
     padding: 2px;    
 }
@@ -63,26 +67,27 @@ header{
     margin: 5px;
     padding: 5px;
 }
-#feedback{
-    background: white;
+.msg{
+    background: #E5E5E5;
 }
-#vaga{
+.balao{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 5px;
     background: white;
-}
-#mostra{
-    text-align: center;
 }
 #grupo{
     background-image: linear-gradient(to right, #67CCFF, #FFFFFF );
     text-align: center;    
-    
-   
 }
-.hibri{
-    border-bottom: 2px solid #000;
-    background: #E5E5E5;
-    
+
+.menu1{
+    height: 50px;
 }
+
+
 footer{    
     background: #67CCFF; 
     text-align: center; 
@@ -96,10 +101,8 @@ footer{
     
 }
 @media (max-width: 728px) {
-    #contatos{
+    #msg{
         width: 95vw;
     }
-    #curriculo{
-        width: 100%;
-    }
+    
 }

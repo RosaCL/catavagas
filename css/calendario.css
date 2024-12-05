@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+header{
+    background: #67CCFF;
+    text-align: center;
+    color: black;
+}
+.calendar{
+    max-width: 760px;
+    margin: 10px auto;
+    background-color: #67CCFF;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+.mes{
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+.dias{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+.dias span{
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+    width: 14.2%;
+
+}
+.data{
+    display: flex;   
+    width: 100%;
+    flex-wrap: wrap;
+}
+.data span{
+    display: inline-block;
+    width: 14.2%;
+    margin-bottom: 8px 0;    
+    color: #FFFFFF;
+
+}
+
+.empresa{
+    border: 1px solid #000;
+    background-image: linear-gradient(to bottom, #67CCFF, transparent,#FFFFFF );
+    margin: 5px;
+    padding: 5px;
+    
+}
+footer{    
+    background: #67CCFF; 
+    text-align: center; 
+    bottom: 0;
+    position: fixed;
+    width: 100%;  
+}
+#costureza{    
+    text-decoration: none;
+    color: white;
+    
+}
+@media (max-width: 728px) {
+    #calendario{
+        width: 95vw;
+    }
+   
+}
+
+
+

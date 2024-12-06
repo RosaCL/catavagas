@@ -74,9 +74,7 @@ header{
 }
 #grupo{
     background-image: linear-gradient(to right, #67CCFF, #FFFFFF );
-    text-align: center;    
-    
-   
+    text-align: center; 
 }
 .hibri{
     border-bottom: 2px solid #000;
@@ -91,6 +89,7 @@ footer{
     width: 100%;  
 }
 #costureza{    
+    
     text-decoration: none;
     color: white;
     

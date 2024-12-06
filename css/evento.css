@@ -18,7 +18,8 @@ header{
 }
 
 #evento{
-    background: #E5E5E5;    
+    background: #E5E5E5;  
+      
 }
 p{
     text-align: justify;
@@ -28,7 +29,9 @@ p{
     border-radius: 20px;
     margin: 5px;
     padding: 5px;
-    background: #67CCFF;    
+    background: #67CCFF;  
+    border-style: none;
+    box-shadow: 2px 2px 2px black;  
     }
 
 

@@ -6,6 +6,7 @@
 body,html{
     width: 100vw;
     height: 100vh;    
+    margin: 5px;
     
 }
 header{
@@ -17,16 +18,18 @@ header{
 .calendar{
     max-width: 760px;
     margin: 10px auto;
-    background-color: #67CCFF;
+    background-color: white;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    border: 1px solid black;
     box-shadow: 5px 5px 5px black;
     border-radius: 8px;
 }
 .mes{
     text-align: center;
-    color: #000;
+    color: #67CCFF;
+    font-size: 2em;
     font-weight: bold;
 }
 .dias{
@@ -37,8 +40,8 @@ header{
     border-bottom: 1px solid black;
 }
 .dias span{
-    color: #000;
-    font-weight: bold;
+    color: #67CCFF;
+     font-weight: bold;
     display: inline-block;
     width: 14.2%;
 
@@ -52,14 +55,14 @@ header{
     display: inline-block;
     width: 14.2%;
     margin-bottom: 8px 0;    
-    color: #FFFFFF;
+    color: black;
 
 }
 button{    
     background: #67CCFF;
     margin: 5px;
     padding: 5px;     
-    border-radius: 20px;  
+    border-radius: 20px;
 }
 .empresa{
     border: 1px solid #000;

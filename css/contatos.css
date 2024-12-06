@@ -26,8 +26,7 @@ header{
     border-style: none;
     box-shadow: 2px 2px 2px black;
     background: #67CCFF;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 
@@ -79,8 +78,7 @@ header{
 .hibri{
     width: 100vw;
     border-bottom: 2px solid #000;
-    background: #E5E5E5;    
-    
+    background: #E5E5E5;       
 }
 footer{    
     background: #67CCFF; 
@@ -89,8 +87,7 @@ footer{
     position: fixed;
     width: 100%;  
 }
-#costureza{    
-    
+#costureza{        
     text-decoration: none;
     color: white;
     
@@ -98,6 +95,5 @@ footer{
 @media (max-width: 728px) {
     #contatos{
         width: 95vw;
-    }
-     
+    }     
 }

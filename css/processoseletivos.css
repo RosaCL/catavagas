@@ -22,6 +22,11 @@ header{
     padding: 5px;
     
 }
+#grupo{
+    width: 100vw;
+    background-image: linear-gradient(to right, #67CCFF, #FFFFFF );
+    text-align: center;    
+}
 footer{    
     background: #67CCFF; 
     text-align: center; 

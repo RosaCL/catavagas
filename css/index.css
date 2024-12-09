@@ -13,6 +13,15 @@ header{
     text-align: center;
     color: black;
 }
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;               
+}
+
 #login{
     padding: 15px;  
     margin: 50px;
@@ -22,6 +31,7 @@ header{
     box-shadow: 5px 5px 5px #67CCFF;
     border-radius: 20px;   
     }
+
 
 #cadastre{
     background: black;
@@ -67,4 +77,9 @@ footer{
 #costureza{    
     text-decoration: none;
     color: white;
+}
+@media (min-width:344px) {
+    .container{
+       max-width: 344px;
+    }
 }

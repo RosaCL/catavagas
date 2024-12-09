@@ -18,14 +18,14 @@ header{
 }
 
 #evento{
-    background: #E5E5E5;  
-      
+    background: #E5E5E5;
 }
 p{
     text-align: justify;
 }
 
 #saiba{
+    width: 20vw;
     border-radius: 20px;
     margin: 5px;
     padding: 5px;
@@ -39,6 +39,10 @@ p{
     width: 100vw;
     background-image: linear-gradient(to right, #67CCFF, #FFFFFF );
     text-align: center;    
+}
+
+.cata{
+    height: 200px;
 }
 
 footer{    

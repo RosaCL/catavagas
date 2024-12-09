@@ -14,15 +14,15 @@ header{
     color: black;
 }
 
-.container{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;               
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #login{
+    width: auto;
     padding: 15px;  
     margin: 50px;
     padding: 50px;
@@ -78,8 +78,8 @@ footer{
     text-decoration: none;
     color: white;
 }
-@media (min-width:344px) {
+@media (min-width:728px) {
     .container{
-       max-width: 344px;
+        max-width: 344px;
     }
 }

@@ -19,6 +19,7 @@ header{
 
 
 #qualifica{
+    width: auto;
     background: white;
     border-bottom: 1px solid #000;
     margin: 5px;
@@ -26,6 +27,7 @@ header{
     
 }
 #sobrevaga{
+    width: auto;
     background: white;
     border-bottom: 1px solid #000;
     margin: 5px;
@@ -34,6 +36,7 @@ header{
 }
 
 #empresa{
+    width: auto;
     background: white;
     border-bottom: 1px solid #000;
     box-shadow: 5px 5px 5px black;
@@ -43,6 +46,7 @@ header{
    
 }
 #redes{
+    width: auto;
     background: white;
     border-bottom: 2px solid #000;
     box-shadow: 5px 5px 5px black;
@@ -50,9 +54,11 @@ header{
     padding: 5px;
     height: 200px;
     border-radius: 20px;
+    
 
 }
 #vagas{
+    width: auto;
     background: #67CCFF;
     border-bottom: 1px solid #000;    
     margin: 5px;
@@ -65,8 +71,8 @@ header{
 
 #btn{
     margin: 5px;
-   padding: 5px;
-   border-radius: 20px;
+    padding: 5px;
+    border-radius: 20px;
     background-image: linear-gradient(to bottom, #67CCFF,#FFFFFF );
     color: #000;
 }
@@ -80,7 +86,6 @@ header{
 footer{    
     background: #67CCFF; 
     text-align: center; 
-   
 }
 #costureza{    
     text-decoration: none;
@@ -89,5 +94,8 @@ footer{
 @media (max-width: 728px) {
     #perfilempresa{
         width: 95vw;
+    }
+    .container{
+        max-width: 344px;
     }
 }

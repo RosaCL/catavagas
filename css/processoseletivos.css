@@ -46,6 +46,9 @@ footer{
     #curriculo{
         width: 100%;
     }
+    .container{
+        max-width: 344px;
+    }
 }
 
 

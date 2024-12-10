@@ -26,6 +26,7 @@ header{
     
 }
 #qualifica{
+    
     background: white;
     border-bottom: 1px solid #000;
     margin: 5px;
@@ -40,6 +41,7 @@ header{
     
 }
 #mostrar{
+    
     text-align: center;
     border-bottom: 1px solid #000;
     background: #E5E5E5;
@@ -89,5 +91,8 @@ footer{
 @media (max-width: 728px) {
     #vaga{
         width: 95vw;
+    }
+    .container{
+        max-width: 344px;
     }
 }

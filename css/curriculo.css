@@ -24,6 +24,7 @@ header{
     align-items: center;
 }
 #curriculo{
+    width: auto;
     padding: 10px;    
     margin: 10px;
     border: 1px solid black; 
@@ -42,7 +43,8 @@ header{
 }
 
 #experiencia{
-    height: 310px;
+    
+    width: auto;
     padding: 10px;    
     margin: 10px;
     border: 1px solid black; 
@@ -57,6 +59,7 @@ header{
 }
 
 #redes{
+    width: auto;
     padding: 10px;    
     margin: 10px;
     border: 1px solid black; 
@@ -66,6 +69,7 @@ header{
     text-align: center; 
 }
 #sobre{
+    width: auto;
     padding: 10px;    
     margin: 10px;
     border: 1px solid black; 
@@ -93,8 +97,7 @@ header{
 
 footer{    
     background: #67CCFF; 
-    text-align: center; 
-   
+    text-align: center;    
 }
 #costureza{    
     text-decoration: none;
@@ -104,5 +107,8 @@ footer{
 @media (max-width: 728px) {
     .formacao{
         width: 95vw;
+    }
+    .container{
+        max-width: 344px;
     }
 }
